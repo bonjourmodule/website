@@ -1,0 +1,31 @@
+{
+  "contributors": [
+    "Nicolas Chambrier <naholyr@gmail.com> (http://naholyr.fr)",
+    "Remy Loubradou <remyloubradou@gmail.com> (https://github.com/lbdremy)"
+  ],
+  "name": "bonjourmodule",
+  "description": "Bonjour Module website",
+  "version": "0.0.0",
+  "homepage": "http://bonjourmodule.com",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/naholyr/bonjourmodule.git"
+  },
+  "main": "app.js",
+  "scripts": {
+    "test": "./node_modules/.bin/_mocha"
+  },
+  "dependencies": {
+    "redis": "~0.8.1",
+    "npm": "~1.1.61",
+    "express": "~3.0.0rc4",
+    "reds": "~0.2.1",
+    "chai": "~1.2.0",
+    "mocha": "~1.4.2"
+  },
+  "devDependencies": {},
+  "optionalDependencies": {},
+  "engines": {
+    "node": "*"
+  }
+}
